@@ -31,7 +31,7 @@ public class Main{
             
              System.out.print("Enter the amount you want to send: ");
              userAmt = scanner.nextDouble();
-             account.setAmount(userAmt);
+             //account.setAmount(userAmt);
              
              if(account.send(userAmt)){
                 System.out.println("You have sent "+userAmt+", and your balance is: "+account.checkBal());
@@ -50,7 +50,7 @@ public class Main{
            
              System.out.print("Enter the amount you want to Withdraw: ");
              userAmt = scanner.nextDouble();
-             account.setAmount(userAmt);
+             //account.setAmount(userAmt);
             
              if(account.withdraw(userAmt)){
                 System.out.println("You have withdrawn "+userAmt+", and your balance is: "+account.checkBal());
@@ -62,7 +62,7 @@ public class Main{
             
              System.out.print("Enter the amount you want to deposit: ");
              userAmt = scanner.nextDouble();
-             account.setAmount(userAmt);
+             //account.setAmount(userAmt);
              
              if(account.deposit(userAmt)){
                 System.out.println("You have deposited"+userAmt+", and your balance is: "+account.checkBal());
@@ -80,7 +80,7 @@ public class Main{
             if(choice2 == 1){
                 System.out.print("Enter the amount you want to deposit: ");
                 userAmt = scanner.nextDouble();
-                account1.setAmount(userAmt);
+                //account1.setAmount(userAmt);
                
                 if(account1.deposit(userAmt)){
                     System.out.println("You have deposited "+userAmt+", in your Savings account, and your balance is: "+account1.checkBal());
@@ -89,7 +89,7 @@ public class Main{
             }else if(choice2 == 2){
                 System.out.print("Enter the amount you want to withdraw: ");
                 userAmt = scanner.nextDouble();
-                account1.setAmount(userAmt);
+                //account1.setAmount(userAmt);
                 
                 if(account1.withdraw(userAmt)){
                     System.out.println("You have withdrawn "+userAmt+", from your Savings account, and your balance is: "+account1.checkBal());

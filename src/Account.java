@@ -1,7 +1,7 @@
 
 public class Account{
     
-    private double bal, amount;
+    private double bal; //, amount;
 
     public void setBal(double bal){
         
@@ -11,6 +11,7 @@ public class Account{
                this.bal = bal;
         }
     }
+    /*
     public void setAmount(double amount){
        
         if(amount < 0){
@@ -19,6 +20,7 @@ public class Account{
         this.amount = amount;
         }
     }
+    */
     public double checkBal(){
         return this.bal;
     }
